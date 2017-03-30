@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tables</title>
+  <%= javascript_include_tag 'jquery-1.7.2.min' %>
+  <%= javascript_include_tag 'application' %>
+  <%= javascript_include_tag 'datatables-1.10.11.min' %>
+  <%= javascript_include_tag 'dt_demo' %>
+  <%= stylesheet_link_tag    'datatables-1.10.11.min'%>  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
